@@ -1,10 +1,11 @@
 import React from 'react'
-import Inline from './components/inline'
+import Parent from './components/parent'
+import Listrendering from './components/Listrendering'
 
 const App = () => {
   return (
     <div>
-      <Inline/>
+      <Listrendering/>
     </div>
   )
 }

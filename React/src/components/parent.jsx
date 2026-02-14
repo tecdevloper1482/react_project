@@ -1,15 +1,17 @@
 import React from 'react'
-import child from './child'
+import Child from './child'
 
-const parent = () => {
+const Parent = () => {
   return (
     <div>
 
-        <child/>
+      <h1>Welcome to Parent Component</h1>
+
+        <Child name = "simran"/>
 
       
     </div>
   )
 }
 
-export default parent
+export default Parent
