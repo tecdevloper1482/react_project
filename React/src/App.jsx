@@ -1,12 +1,12 @@
 import React from 'react'
-import Parent from './components/parent'
-import Listrendering from './components/Listrendering'
+import Form from './components/Form'
+import Useref from './components/Useref'
 
 const App = () => {
   return (
-    <div>
-      <Listrendering/>
-    </div>
+    <main className="page-center">
+      <Useref />
+    </main>
   )
 }
 
